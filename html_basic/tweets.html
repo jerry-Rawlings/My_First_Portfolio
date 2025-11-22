@@ -6,30 +6,56 @@
     <title>Embedded Tweets</title>
   </head>
   <body>
-    <h1>My Tweets Page</h1>
+    <!-- Header with navigation -->
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-    <!-- Link back to homepage -->
-    <p>
-      <a href="index.html">Back to Homepage</a>
-    </p>
+    <!-- Main content -->
+    <main>
+      <!-- Article: main content of the page -->
+      <article>
+        <h1>My Tweets Page</h1>
 
-    <!-- Embedded Tweet (real example from Twitter) -->
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">
-        Excited to share that my first coding project is live! 🎉 #100DaysOfCode
-        #WebDevelopment
+        <!-- Link back to homepage -->
+        <p><a href="index.html">Back to Homepage</a></p>
+
+        <!-- Embedded Tweet (real example from Twitter) -->
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Excited to share that my first coding project is live! 🎉
+            #100DaysOfCode #WebDevelopment
+          </p>
+          &mdash; Jerry Rawlings (@jerryrawlings65)
+          <a
+            href="https://twitter.com/jerryrawlings65/status/1715000000000000000"
+            >October 15, 2025</a
+          >
+        </blockquote>
+
+        <!-- Twitter Script (required for the embed to load) -->
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </article>
+
+      <!-- Aside: placeholder -->
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Made by Jerry Rawlings -
+        <a href="https://example.com" target="_blank">here</a>
       </p>
-      &mdash; Jerry Rawlings (@jerryrawlings65)
-      <a href="https://twitter.com/jerryrawlings65/status/1715000000000000000"
-        >October 15, 2025</a
-      >
-    </blockquote>
-
-    <!-- Twitter Script (required for the embed to load) -->
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
+    </footer>
   </body>
 </html>
